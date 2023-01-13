@@ -9,36 +9,36 @@ public class PlayerStats {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-    private Long id;
+    private Integer id;
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
     @Column(name = "level")
-    private Long level;
+    private Integer level;
 
     @Column(name = "experience")
-    private Long experience;
+    private Integer experience;
 
     @Column(name = "health_point")
-    private Long healthPoint;
+    private Integer healthPoint;
 
     @Column(name = "acuity")
-    private Long acuity;
+    private Integer acuity;
 
     @Column(name = "sanity")
-    private Long sanity;
+    private Integer sanity;
 
     @Column(name = "pressure")
-    private Long pressure;
+    private Integer pressure;
 
     @Column(name = "physique")
-    private Long physique;
+    private Integer physique;
 
     @Column(name = "mentality")
     private String mentality;
@@ -52,59 +52,59 @@ public class PlayerStats {
         this.mentality = mentality;
     }
 
-    public Long getPhysique() {
+    public Integer getPhysique() {
         return physique;
     }
 
-    public void setPhysique(Long physique) {
+    public void setPhysique(Integer physique) {
         this.physique = physique;
     }
 
-    public Long getHealthPoint() {
+    public Integer getHealthPoint() {
         return healthPoint;
     }
 
-    public void setHealthPoint(Long healthPoint) {
+    public void setHealthPoint(Integer healthPoint) {
         this.healthPoint = healthPoint;
     }
 
-    public Long getPressure() {
+    public Integer getPressure() {
         return pressure;
     }
 
-    public void setPressure(Long pressure) {
+    public void setPressure(Integer pressure) {
         this.pressure = pressure;
     }
 
-    public Long getSanity() {
+    public Integer getSanity() {
         return sanity;
     }
 
-    public void setSanity(Long sanity) {
+    public void setSanity(Integer sanity) {
         this.sanity = sanity;
     }
 
-    public Long getAcuity() {
+    public Integer getAcuity() {
         return acuity;
     }
 
-    public void setAcuity(Long acuity) {
+    public void setAcuity(Integer acuity) {
         this.acuity = acuity;
     }
 
-    public Long getExperience() {
+    public Integer getExperience() {
         return experience;
     }
 
-    public void setExperience(Long experience) {
+    public void setExperience(Integer experience) {
         this.experience = experience;
     }
 
-    public Long getLevel() {
+    public Integer getLevel() {
         return level;
     }
 
-    public void setLevel(Long level) {
+    public void setLevel(Integer level) {
         this.level = level;
     }
 }
