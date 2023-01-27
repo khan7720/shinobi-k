@@ -1,0 +1,12 @@
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\model\PlayerInfo.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\Repository\PlayerInfoRepository.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\service\StatsService.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\Repository\PlayerStatsRepository.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\service\impl\StatsServiceImpl.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\ShinobiKApplication.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\model\Ability.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\model\PlayerStats.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\Repository\EffectRepository.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\controller\StatsController.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\model\Effect.java
+D:\Dev\projects\shinobi-k\src\main\java\com\hankshop\shinobik\Repository\AbilityRepository.java
