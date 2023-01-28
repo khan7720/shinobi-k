@@ -1,6 +1,6 @@
 FROM openjdk:17
 
-COPY *.jar /app.jar
+COPY *.jar /shinobi-k-0.0.1-SNAPSHOT.jar
 #地址映射
 CMD ["--server.port=8080"]
 #对外暴露端口
