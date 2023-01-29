@@ -1,5 +1,7 @@
 package com.hankshop.shinobik.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import javax.persistence.*;
 import java.util.Date;
 
@@ -25,6 +27,7 @@ public class ToCheck {
 
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "modify_time")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone="GMT+8")
     private Date modifyTime;
 
     public Date getModifyTime() {

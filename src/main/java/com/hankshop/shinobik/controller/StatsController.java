@@ -19,7 +19,7 @@ public class StatsController {
     private StatsService statsService;
 
     @GetMapping
-    public String getFmStats(ModelMap modelMap){
+    public String getStatsPage(ModelMap modelMap){
         Map<String,String> statsMap = new HashMap<>();
         PlayerStats stats = statsService.getPlayerStats();
         statsMap.put("level", String.valueOf(stats.getLevel()));
@@ -32,6 +32,6 @@ public class StatsController {
         statsMap.put("mentality", stats.getMentality());
 
         modelMap.addAttribute("stats",statsMap);
-        return "index";
+        return "dashboard";
     }
 }
