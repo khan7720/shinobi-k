@@ -19,11 +19,6 @@ public class StatsController {
     private StatsService statsService;
 
     @GetMapping
-    public PlayerStats getPlayerStats(){
-        return statsService.getPlayerStats();
-    }
-
-    @GetMapping("/fm")
     public String getFmStats(ModelMap modelMap){
         Map<String,String> statsMap = new HashMap<>();
         PlayerStats stats = statsService.getPlayerStats();
@@ -37,6 +32,6 @@ public class StatsController {
         statsMap.put("mentality", stats.getMentality());
 
         modelMap.addAttribute("stats",statsMap);
-        return "stats";
+        return "index";
     }
 }
